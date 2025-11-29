@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;600&display=swap");
+
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: #f6e7ec; /* soft boutique pink */
+    color: #4a2b33;
+    display: flex;
+}
+
+/* SIDE BACKGROUND STRIP */
+.side-decor {
+    width: 260px;
+    background-image: url("../img/candy.png");
+    background-size: 260px auto;
+    background-repeat: repeat-y;
+    background-position: left top;
+}
+
+/* MAIN CONTENT AREA */
+main {
+    flex: 1;
+    padding: 20px 60px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background-color: #d08b9c; 
+    color: #fff;
+    padding: 18px 0 8px 0;
+    border-bottom: 4px solid #bb7384;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #bb7384;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 2px;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+nav a {
+    color: #ffe9ef;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* SECTION HEADERS */
+.section-title {
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    color: #703d49;
+    margin-top: 100px;
+    border-bottom: 3px solid #bb7384;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* BOUTIQUE INFO BOXES */
+.info-box {
+    background-color: #fcdfe7;
+    border: 1px solid #dba7b4;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin: 8px 0;
+    width: fit-content;
+    font-weight: 600;
+}
+
+/* TABLE STYLE */
+table {
+    width: 90%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #dba7b4;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #f2c8d1;
+}
+
+/* CONDITIONAL LABELS */
+.cheap {
+    background-color: #7dcfa3;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
+}
+
+.regular {
+    background-color: #c28b94;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #bb7384;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    font-weight: 600;
+    border-top: 4px solid #9f5d6e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
