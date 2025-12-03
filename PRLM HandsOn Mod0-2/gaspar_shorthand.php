@@ -9,7 +9,7 @@ $candies = [
 ];
 
 $discount = 0;
-$discount += 5;  // shorthand operator
+$discount += 5;   
 ?>
 
 <h2><?= $title ?></h2>
