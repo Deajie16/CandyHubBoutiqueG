@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;600&display=swap");
 
-/* GLOBAL */
+ 
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
-    background-color: #f6e7ec; /* soft boutique pink */
+    background-color: #f6e7ec;  
     color: #4a2b33;
     display: flex;
 }
 
-/* SIDE BACKGROUND STRIP */
+ 
 .side-decor {
     width: 260px;
     background-image: url("../img/candy.png");
@@ -18,13 +18,13 @@ body {
     background-position: left top;
 }
 
-/* MAIN CONTENT AREA */
+ 
 main {
     flex: 1;
     padding: 20px 60px;
 }
 
-/* HEADER */
+ 
 header {
     text-align: center;
     background-color: #d08b9c; 
@@ -44,7 +44,7 @@ header h1 {
     letter-spacing: 2px;
 }
 
-/* NAVIGATION */
+ 
 nav {
     background-color: #bb7384;
     text-align: center;
@@ -65,7 +65,7 @@ nav a:hover {
     color: #ffffff;
 }
 
-/* SECTION HEADERS */
+ 
 .section-title {
     font-family: "Playfair Display", serif;
     font-size: 26px;
@@ -76,7 +76,7 @@ nav a:hover {
     padding-bottom: 5px;
 }
 
-/* BOUTIQUE INFO BOXES */
+ 
 .info-box {
     background-color: #fcdfe7;
     border: 1px solid #dba7b4;
@@ -87,7 +87,7 @@ nav a:hover {
     font-weight: 600;
 }
 
-/* TABLE STYLE */
+ 
 table {
     width: 90%;
     margin-top: 20px;
@@ -109,7 +109,7 @@ td {
     border-bottom: 1px solid #f2c8d1;
 }
 
-/* CONDITIONAL LABELS */
+ 
 .cheap {
     background-color: #7dcfa3;
     padding: 6px 12px;
@@ -126,7 +126,7 @@ td {
     font-size: 13px;
 }
 
-/* FOOTER */
+ 
 footer {
     background-color: #bb7384;
     text-align: center;
