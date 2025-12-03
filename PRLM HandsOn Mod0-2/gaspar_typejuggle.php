@@ -8,7 +8,7 @@ $candies = [
     ["name"=>"Chocolate Drops","price"=>"20","img"=>"img/candy2.jpg"],
 ];
 
-$addedValue = 5; // int
+$addedValue = 5;  
 ?>
 
 <h2><?= $title ?></h2>
