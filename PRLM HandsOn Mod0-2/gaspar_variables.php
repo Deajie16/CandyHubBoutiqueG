@@ -3,7 +3,7 @@
 <?php
 $title = "Candy Hub – Variables Demo";
 
-// Shared Candy List
+ 
 $candies = [
     ["name"=>"Strawberry Chews","price"=>15,"img"=>"img/candy1.jpg"],
     ["name"=>"Chocolate Drops","price"=>20,"img"=>"img/candy2.jpg"],
@@ -29,7 +29,7 @@ $candies = [
     <td><?= $c['name'] ?></td>
     <td><?= $c['price'] ?></td>
 
-    <!-- CONDITIONAL EXAMPLE -->
+ 
     <td>
         <?php 
             if($c['price'] < 15){
@@ -44,3 +44,4 @@ $candies = [
 </table>
 
 <?php include "footer.php"; ?>
+
