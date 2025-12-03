@@ -1,8 +1,9 @@
 </main>
 
 <footer>
-    &copy; 2025 Candy Hub Boutique • Crafted with Sweet Elegance 🍭
+    &copy; Created by Paula Andrea Q. Gaspar WD-202 2025
 </footer>
 
 </body>
 </html>
+
