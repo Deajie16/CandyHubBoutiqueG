@@ -8,7 +8,7 @@ $candies = [
     ["name"=>"Caramel Crunch","price"=>22,"img"=>"img/candy7.jpg"],
 ];
 
-$tax = 0.12; // 12% VAT
+$tax = 0.12;  
 ?>
 
 <h2><?= $title ?></h2>
